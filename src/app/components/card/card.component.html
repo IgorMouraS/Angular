@@ -1,0 +1,5 @@
+<div class="card_component front" [style.background-color]="bgSrc ? 'transparent' : '#13032A'">
+    <img id="bg-area" *ngIf="bgSrc" [src]="bgSrc" [alt]="bgAlt">
+    <p *ngIf="area" class="area"> {{area}}</p>
+    <img id="icon" *ngIf="iconSrc" [src]="iconSrc" [alt]="iconAlt">
+</div>

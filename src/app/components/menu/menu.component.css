@@ -1,0 +1,25 @@
+.menu-component{
+    padding: 0.125rem 0 1rem 0;
+    background-color: #06000f;
+}
+
+.menu-component hr{
+    margin-bottom: 1rem;
+    border: 1px solid #6011D5;
+    width: 100%;
+}
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+    color: #EFE7FA;
+}
+
+a:active{
+    color: #CFB7F2;
+}

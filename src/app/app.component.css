@@ -1,0 +1,39 @@
+.page-menu {
+    background-color: #090115;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.page-menu p {
+    font-size: 14px;
+    color: #efe7fa;
+    margin: 1.5rem 3rem;
+}
+
+header {
+    width: 100vw;
+    height: 30vh;
+}
+
+main{
+    margin-bottom: 25%;
+}
+
+.tecnologia {
+    padding: .125rem;
+    display: flex;
+    flex-direction: row;
+    gap: .825rem;
+    margin: 0 1.5rem 0 1.5rem;
+    overflow-x: auto;
+}
+
+app-card {
+    flex-shrink: 0;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
