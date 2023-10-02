@@ -1,9 +1,9 @@
 <a href="#">
     <div class="foto_info_component">
         <div class="info_component">
-            <h1>{{titulo}}</h1>
-            <p>{{subTitulo}} <span>{{subTituloSpan}}</span></p>
+            <h1 *ngIf="titulo">{{titulo}}</h1>
+            <p *ngIf="subTitulo">{{subTitulo}} <span *ngIf="subTituloSpan">{{subTituloSpan}}</span></p>
         </div>
-        <img src={{bgSrc}} alt={{bgAlt}}>
+        <img *ngIf="bgSrc" [src]="bgSrc" [alt]="bgAlt">
     </div>
 </a>
