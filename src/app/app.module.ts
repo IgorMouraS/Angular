@@ -20,7 +20,7 @@ import { SobreTelaComponent } from './pages/sobre-tela/sobre-tela.component';
     HomeComponent,
     AreaTelaComponent,
     TituloDescricaoComponent,
-    SobreTelaComponent
+    SobreTelaComponent,
   ],
   imports: [
     BrowserModule,

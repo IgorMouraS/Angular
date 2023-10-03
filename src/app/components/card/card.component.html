@@ -1,5 +1,7 @@
-<div class="card_component front" [style.background-color]="bgSrc ? 'transparent' : '#13032A'">
-    <img id="bg-area" *ngIf="bgSrc" [src]="bgSrc" [alt]="bgAlt">
-    <p *ngIf="area" class="area"> {{area}}</p>
-    <img id="icon" *ngIf="iconSrc" [src]="iconSrc" [alt]="iconAlt">
-</div>
+<a [routerLink]="['area', id]">
+    <div class="card_component front" [style.background-color]="bgSrc ? 'transparent' : '#13032A'">
+        <img id="bg-area" *ngIf="bgSrc" [src]="bgSrc" [alt]="bgAlt">
+        <p *ngIf="area" class="area"> {{area}}</p>
+        <p><i *ngIf="icon" [class]="icon"></i></p>
+    </div>
+</a>

@@ -1,3 +1,82 @@
 *{
+
     background-color: #090115;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 1.5rem 1rem 1.5rem;
+    gap: 1.625rem;
+}
+
+.foto-perfil{
+    width: 160px;
+    height: 160px;
+    border-radius: 90%;
+    object-fit: cover;
+}
+
+.contato-icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+}
+
+i{
+    font-size: 1rem;
+    color: #EFE7FA;
+}
+
+.sobre-projeto{
+    background-color: #13032A;
+    padding: 1.5rem 2.5rem;
+    color: #EFE7FA;
+    font-size: .9rem;
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    gap: .625rem
+}
+
+.sobre-projeto > p{
+    background-color: #13032A;
+}
+
+.dicas{
+    background-color: #090115;
+    padding: 1.5rem 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: inherit;
+    gap: .625rem;
+    margin-bottom: 15%;
+}
+
+.dicas h2{
+    font-size: 1.2rem;
+    color: #CFB7F2;
+    font-weight: 300
+}
+.dicas h3{
+    font-size: 1rem;
+    color: #CFB7F2;
+    font-weight: 300
+}
+.dicas h4{
+    font-size: .9rem;
+    color: #DFCFF6;
+    font-weight: 200
+}
+.dicas p{
+    font-size: .9rem;
+    color: #EFE7FA;
+    font-weight: 200
 }

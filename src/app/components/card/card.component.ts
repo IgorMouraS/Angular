@@ -17,10 +17,11 @@ export class CardComponent implements OnInit {
   bgAlt: string = "";
 
   @Input()
-  iconSrc:string = "";
-
+  icon:string = "";
   @Input()
-  iconAlt:string = "";
+  color:string = "";
+  @Input()
+  id:string = "0";
 
   constructor() { }
 
