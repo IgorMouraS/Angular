@@ -65,9 +65,7 @@ export const data = [
                     }
                 ]
             },
-        ]
-    },
-    {
+        ],
         "tecnologia": [
 
             {

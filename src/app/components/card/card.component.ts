@@ -21,9 +21,12 @@ export class CardComponent implements OnInit {
   @Input()
   color:string = "";
   @Input()
-  id:string = "0";
+  id:string = "";
+  @Input()
+  conteudo:string = "";
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit(): void {
   }

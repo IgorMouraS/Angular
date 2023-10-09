@@ -11,7 +11,7 @@ const routes: Routes = [{
   component: HomeComponent
 },
 {
-  path: 'area/:id',
+  path: ':conteudo/:id',
   component: AreaTelaComponent
 },
 {
